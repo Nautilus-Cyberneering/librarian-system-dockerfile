@@ -4,10 +4,28 @@
 
 Base docker image for the [Librarian](https://github.com/Nautilus-Cyberneering/librarian) console app.
 
-## Linting
+## Lint
 
 We are using GitHub Action [super-linter](https://github.com/marketplace/actions/super-linter). If you want to check the `Dockerfile` linting before pushing you can do it with:
 
 ```shell
 docker run --rm -i hadolint/hadolint < Dockerfile
 ```
+
+## Run
+
+From dockerhub:
+
+```shell
+docker run --rm -i nautiluscyberneering/librarian-system-dockerfile dvc --version
+```
+
+From GitHub packages:
+
+```shell
+docker run --rm -i ghcr.io/nautilus-cyberneering/librarian-system-dockerfile dvc --version
+```
+
+## Links
+
+- [Working with the GitHub Container registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry)
