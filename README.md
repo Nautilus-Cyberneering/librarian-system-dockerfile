@@ -1,5 +1,7 @@
 # Librarian System Dependencies
 
+[![Lint Code Base](https://github.com/Nautilus-Cyberneering/librarian-system-dockerfile/actions/workflows/linter.yml/badge.svg)](https://github.com/Nautilus-Cyberneering/librarian-system-dockerfile/actions/workflows/linter.yml) [![Publish Docker image](https://github.com/Nautilus-Cyberneering/librarian-system-dockerfile/actions/workflows/publish-docker-image.yml/badge.svg)](https://github.com/Nautilus-Cyberneering/librarian-system-dockerfile/actions/workflows/publish-docker-image.yml)
+
 Base docker image for the [Librarian](https://github.com/Nautilus-Cyberneering/librarian) console app.
 
 ## Linting
